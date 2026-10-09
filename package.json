@@ -1,0 +1,23 @@
+{
+  "name": "airport-carbon-hotspot",
+  "version": "1.0.0",
+  "description": "Find avoidable operational emissions before they become routine.",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "client": "npm --prefix client run dev",
+    "server": "npm --prefix server run dev",
+    "build:client": "npm --prefix client run build"
+  },
+  "keywords": [
+    "airport",
+    "sustainability",
+    "carbon-hotspot",
+    "ground-support-equipment",
+    "emissions-reduction",
+    "hackathon"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
